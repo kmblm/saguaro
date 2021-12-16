@@ -1,0 +1,159 @@
+@font-face {
+  font-family: minerva-modern, sans-serif;
+  font-style: normal;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+body {
+  background-color: #f3ebb3;
+}
+p {
+  font-family: minerva-modern;
+  font-size: 50px;
+}
+.section {
+  background-color: #E3D78E;
+  margin: 50px 50px;
+  padding: 70px;
+  border-radius: 25px;
+}
+
+/* Page structure */
+.wrapper {
+  min-height: 50vh;
+  background-image: url("https://cdn.glitch.me/bc47351f-a342-4ec9-af14-c6523e743062%2FUntitled-4.png?v=1637732717428");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-color: ##f3b55c;
+  background-size: 100%;
+  padding: 2px 100px;
+}
+.title {
+  color: #934f42;
+  text-transform: uppercase;
+  font-family: hwt-aetna, serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 100%;
+  text-align: center;
+  margin-block-start: 1em;
+}
+.heading {
+  padding:40px 60px;
+  border-radius: 10px;
+    background-color: rgba(248, 236, 172, 0.3);
+}
+#links {
+  padding: 0px;
+  margin: 0px;
+}
+header,
+body {
+  margin: 0px;
+}
+nav {
+  position: fixed;
+  width: 100%;
+}
+h2 {
+  color: #767146;
+  font-size: 65px;
+  text-align: center;
+}
+h3 {
+  color: #black;
+  font-size: 75px;
+  text-align: center;
+}
+h4 {
+  color: #934f42;
+  font-size: 70px;
+  font-weight: 700;
+  margin-block-start: 0em;
+  margin-block-end: -0.5em;
+}
+li {
+  color: #934f42;
+  font-family: "minerva-modern", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 150px;
+}
+img {
+  height: 1250px;
+}
+
+.image {
+  height: auto;
+  max-width: 1000px;
+  display: flex;
+       margin: 0 auto;
+  padding: 20px;
+}
+.topnav {
+  background-color: #ffca69;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #Feffee;
+}
+
+@media (min-width: 1000px) {
+  p {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 45px;
+    text-align: left;
+    margin: 20px 50px;
+  }
+  h4 {
+    font-size: 35px;
+    text-align: left;
+  }
+  .section {
+    background-color: #E3D78E;
+    margin: 20px 40px;
+    padding: 20px;
+    border-radius: 25px;
+  }
+  img {
+    height: 500px;
+  }
+  .title {
+    font-size: 70px;
+       margin: 105px;
+  }
+  h2 {
+    font-size: 40px;
+        margin: -100px;
+  }
+  .wrapper {
+    min-height: 95vh;
+    padding: 20px 100px;
+  }
+  .box {
+max-width: 300px;
+     margin: 0 auto;
+}
+  .flex {
+    display: flex;
+        margin: 20px 25px;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+       margin: 20px 20px;
+  }
+}
